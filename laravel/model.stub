@@ -10,6 +10,6 @@ use Illuminate\Database\Eloquent\Model;
 class {? entity.singular.pascal ?} extends Model
 {
 
-    protected $table = "{? entity.plural ?}";
+    protected $table = "{? entity.plural.snake ?}";
 
 }
