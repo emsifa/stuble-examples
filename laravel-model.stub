@@ -1,0 +1,13 @@
+===
+path="app/Models/{? entity.singular.pascal ?}.php";
+===
+<?php
+
+namespace App\Models;
+
+class {? entity.singular.pascal ?} extends Model
+{
+
+    protected $table = "{? entity.plural ?}";
+
+}
